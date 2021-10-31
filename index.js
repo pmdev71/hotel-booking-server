@@ -29,10 +29,23 @@ async function run() {
             res.send(offers);
         });
 
-        // POST offer/service API ??
+        // POST offer/service API 
         app.post('/offers', async (req, res) => {
             const newOffers = req.body;
             const result = await offersCollection.insertOne(newOffers);
+            res.json(result);
+        });
+
+        // UPDATE ORDER STATUS
+        app.put('/orders/:id', async (req, res) => {
+            const id = req.params.id;
+            const query = { _id: ObjectId(id) };
+            const updateDoc = {
+                $set: {
+                    orderStatus: "Processing"
+                }
+            }
+            const result = await ordersCollection.updateOne(query, updateDoc)
             res.json(result);
         });
 
