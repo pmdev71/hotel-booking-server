@@ -2,8 +2,8 @@
 
 ### Live Site Link
 
-1. client side code github repository: [https://github.com/programming-hero-web-course1/](https://github.com/programming-hero-web-course1/)
-2. server side code github repository: [https://github.com/programming-hero-web-course1/](https://github.com/programming-hero-web-course1/)
+1. client side code github repository: [https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-pmpalashmandal](https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-pmpalashmandal)
+2. server side code github repository: [https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-pmpalashmandal](https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-pmpalashmandal)
 3. live website link: [https://service-provider-assignment-11.web.app/](https://service-provider-assignment-11.web.app/)
 
 
