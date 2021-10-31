@@ -42,7 +42,7 @@ async function run() {
             const query = { _id: ObjectId(id) };
             const updateDoc = {
                 $set: {
-                    orderStatus: "Processing"
+                    orderStatus: "Approved"
                 }
             }
             const result = await ordersCollection.updateOne(query, updateDoc)
